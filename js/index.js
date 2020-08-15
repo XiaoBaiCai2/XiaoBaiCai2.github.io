@@ -3,7 +3,7 @@ $('#login-button').click(function (event) {
     var pwd=document.getElementById("pwd").value;
     //修改密码请改此处
     if(userName=="小柯柯" && pwd=="520"){
-       location.href="https://xiaobaicai2.github.io/html/home.html";
+       location.href="./home.html";
     }
     else{
         alert("请输入正确哦");
