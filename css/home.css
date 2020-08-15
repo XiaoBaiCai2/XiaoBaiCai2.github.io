@@ -15,13 +15,6 @@ body{
     margin-left: -200px;
     text-align: center;
 }
-#happy a{
-     z-index: 999;
-    text-algin:center;
-}
-#happy img{
-     z-index: 999;
-}
 
 /***                                  内容区域                                 ***/
 /**                                   第一部分                                  **/
