@@ -9,11 +9,12 @@ body{
     background-color: rgba(255,175,251,0.34);
 }
 #happy{
-     z-index: 999;
+    z-index: 999;
     position: absolute;
     left: 50%;
     margin-left: -200px;
-    text-align: center;
+    width:400px;
+    
 }
 
 /***                                  内容区域                                 ***/
