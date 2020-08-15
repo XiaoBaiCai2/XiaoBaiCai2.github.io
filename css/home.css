@@ -399,7 +399,7 @@ body{
 
 /*第二部分*/
 .ly-box02 {
-    z-index: 999;
+    z-index: 20;
     width:100px;
     height:100px;
     background-color: #FFFFFF;
@@ -678,7 +678,7 @@ body{
 
 /*第三部分*/
 .ly-box03 {
-    z-index: 999;
+   z-index: 20;
     width:100px;
     height:100px;
     background-color: #FFFFFF;
@@ -953,7 +953,7 @@ body{
 
 /*第四部分*/
 .ly-box04 {
-    z-index: 999;
+    z-index: 20;
     width:100px;
     height:100px;
     background-color: #FFFFFF;
