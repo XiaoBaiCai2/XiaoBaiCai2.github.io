@@ -17,6 +17,7 @@ body{
 }
 #happy a{
      z-index: 999;
+    text-algin:center;
 }
 #happy img{
      z-index: 999;
