@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>新世界的入口</title>
+    <link rel="stylesheet" href="../css/index.css">
+<body>
+    <div class="bg">
+        <div id="s1">祝柯柯小朋友</div>
+        <div id="s2">生日快乐嗷~</div>
+  
+        <form class="form">
+
+            <input id="userName" name="userName" type="text" placeholder="你叫什么呢~">
+            <input id="pwd" name="pwd" type="password" placeholder="对个暗号吧~">
+            <button type="submit" id="login-button">进入新世界</button>
+        </form>
+
+        <ul class="bg-bubbles">
+            <li><img src="../img/xin.png" style="width:100%;height:100%"></li>
+            <li><img src="../img/牛.gif" style="width:100%;height:100%"></li>
+            <li><img src="../img/xin.png" style="width:100%;height:100%"></li>
+            <li><img src="../img/猪.gif" style="width:100%;height:100%"></li>
+            <li><img src="../img/羊.gif" style="width:100%;height:100%"></li>
+
+            <li><img src="../img/狗.gif" style="width:100%;height:100%"></li>
+            <li><img src="../img/牛.gif" style="width:100%;height:100%"></li>
+            <li><img src="../img/xin.png" style="width:100%;height:100%"></li>
+            <li><img src="../img/xin.png" style="width:100%;height:100%"></li>
+            <li><img src="../img/xin.png" style="width:100%;height:100%"></li>
+        </ul>
+    </div>
+
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        setTimeout(function () {
+            $('#s1').fadeTo(1000, 1);
+            $('#s2').fadeTo(3000, 1);
+        },500);
+        
+    </script>
+</body>
+</html>
